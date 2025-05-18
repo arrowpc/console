@@ -21,6 +21,7 @@ ansi-parsing = []
 libc = "0.2.99"
 once_cell = "1.8"
 unicode-width = { version = "0.2", optional = true }
+lazy_static = "1.5.0"
 
 [target.'cfg(windows)'.dependencies]
 encode_unicode = "1"
